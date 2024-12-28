@@ -3,8 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
-
   "scripts": {
     "install": "npm install",
     "dev": "vite",
@@ -14,8 +12,8 @@
   },
   "dependencies": {
     "motion": "^11.15.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.28.1"
   },
   "devDependencies": {
