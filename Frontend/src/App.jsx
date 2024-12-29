@@ -1,6 +1,8 @@
 import Features from "./components/Features"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
+import Specialization from "./components/Specialization"
+import Sunil from "./components/Sunil"
 import Hero from "./Main/Hero"
 
 function App() {
@@ -9,6 +11,9 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <Sunil/>
+      <Specialization />
+
       <Footer />
     </div>
   )

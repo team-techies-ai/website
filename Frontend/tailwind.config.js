@@ -17,6 +17,10 @@ export default {
         wider: '0.05em',
         widest: '0.1em',
       },
+      fontFamily: {
+        bebas: ['Bebas Neue', 'cursive'],
+      },
+     
     },
   },
   plugins: [],

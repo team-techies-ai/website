@@ -7,7 +7,7 @@ const Footer = () => {
         <img src={logo} alt="logo" />
       </div>
       <div>company
-        <ul>
+        <ul className="font-thin">
           <li>Blog</li>
           <li>careers</li>
           <li>pricing</li>
@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div>
         Resources
-        <ul>
+        <ul className="font-thin">
           <li>Documentation</li>
           <li>papers</li>
           <li>press</li>
@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       <div>
         Solution 
-        <ul>
+        <ul className="font-thin">
           <li>PCI Compliance</li>
           <li>Encryption as service</li>
           <li>Credential Encryption</li>
@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
       <div>
         legal
-        <ul>
+        <ul className="font-thin">
           <li>Terms of service</li>
           <li>privacy plocicy</li>
           <li>cookies plocicy</li>
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
       <div>
         complaints
-        <ul>
+        <ul className="font-thin">
           <li>PCI level 1</li>
           <li>SOC 2 Type </li>
           
