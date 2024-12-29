@@ -2,7 +2,7 @@ import logo from "../assets/Untitled design 1.svg"
 const Footer = () => {
   return (
     <>
-    <div className=" flex text-white justify-between p-10">
+    <div className=" flex text-white justify-between p-10 mt-32">
       <div>
         <img src={logo} alt="logo" />
       </div>
