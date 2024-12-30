@@ -3,7 +3,7 @@ import Profile from "../components/Profile"
 
 const Team = () => {
   return (
-    <div className="bg-[#0b0314] h-screen overflow-auto text-white">
+    <div className="bg-[#0b0314] h-screen  text-white">
       <h1 className="text-6xl font-medium text-center m-4"> Meet our Team</h1>
       <Mainprofile />
      <div className="flex">
