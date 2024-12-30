@@ -10,7 +10,7 @@ import Team from "./team/Team.jsx";
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-[#0b0314] text-white h-screen overflow-y-auto">
+    <div className="flex flex-col  bg-[#0b0314] text-white  min-h-screen App">
       <Navbar />
       <main className="flex-grow container mx-auto py-6">
         <Routes>
@@ -26,7 +26,7 @@ const App = () => {
 };
 function Home() {
   return (
-    <div className="bg-[#0b0314] text-white h-screen overflow-y-auto">
+    <div className=" text-white  min-h-screen ">
       <Hero />
       <Features />
       <Sunil/>

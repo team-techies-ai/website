@@ -58,7 +58,7 @@ const Footer = () => {
     <div className="text-center items-center">   <p>&copy; Team Techies 2024 </p>
     </div>
     <div 
-  className=" inset-x-0 bottom-0 h-48"
+  className=" inset-x-0 bottom-0 h-20 w-full"
   style={{
     background: `
       radial-gradient(
@@ -72,18 +72,7 @@ const Footer = () => {
   }}
 />
 
-<div 
-  className="absolute inset-x-0 bottom-0 h-32"
-  style={{
-    background: `
-      linear-gradient(
-        to top,
-        rgba(45, 12, 87, 0.3) 0%,
-        transparent 100%
-      )
-    `
-  }}
-/>
+
 
     
     </>
