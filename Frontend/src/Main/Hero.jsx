@@ -1,7 +1,7 @@
 
 const Hero = () => {
   return (
-    <div className="flex">
+    <div className="flex mt-20">
         <div className="  p-10 ml-32 w-[700px]">
 
             <div className="text-6xl font-medium m-4 text-balance tracking-wide">
