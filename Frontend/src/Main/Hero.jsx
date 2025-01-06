@@ -1,7 +1,7 @@
-
+import img from "../assets/ai prod dev.gif"
 const Hero = () => {
   return (
-    <div className="flex mt-20">
+    <div className="flex mt-32">
         <div className="  p-10 ml-32 w-[700px]">
 
             <div className="text-6xl font-medium m-4 text-balance tracking-wide">
@@ -18,15 +18,10 @@ const Hero = () => {
     
 
         </div>
-{/* 
-        <div className="">
-            <img  src={gifAi} alt="AI" className="ml-40 h-[300px]" />
-            <img  src={img} alt="AI" />
-             <h1 className="p-2 m-1 text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3]">A Game changing </h1>
-              <h1 className="p-2 m-1  text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3]">platform for AI </h1>
-              <h1 className="p-2 m-1 text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3]">Inovators</h1>
+        <div>
+          <img src={img} />
+        </div>
 
-        </div> */}
 
     </div>
   )
