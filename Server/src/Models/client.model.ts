@@ -5,7 +5,7 @@ interface ClientDocument extends Client, Document {}
 
 const ClientSchema = new Schema<ClientDocument>({
     companyName: { type: String, required: true },
-    email: { type: String, required: true, unique: true },
+    email: { type: String, required: true },
     contactNumber: { type: String, required: true },
     schedule: {
         date: { type: String, required: true },
