@@ -22,8 +22,16 @@ const Navbar = () => {
           </ul>
        </div>
        <div className="flex gap-4 mr-6">
-            <button className=" bg-white  text-black border rounded-2xl p-[2px] m-1"> <span>`<span>&nbsp;</span></span>Sign in <span>&nbsp;</span></button>
-            <button className=" bg-black  text-white border rounded-2xl p-1 m-1" > <span>&nbsp;</span>Sign up <span>&nbsp;</span></button>
+       <button className="bg-red-500 text-white border rounded-2xl p-[2px] m-1">
+  <span>
+    <span>&nbsp;</span>
+  </span>
+  <Link to={"/subscribe"}>
+  Subscribe</Link> <span>&nbsp;</span>
+</button>
+
+            <button className=" bg-white  text-black border rounded-2xl p-[2px] m-1"> <span><span>&nbsp;</span></span><Link to="/signin"> Sign in </Link><span>&nbsp;</span></button>
+            <button className=" bg-black  text-white border rounded-2xl p-1 m-1" > <span>&nbsp;</span> <Link to="/signup"> Sign up </Link> <span>&nbsp;</span></button>
         </div>
       </div>
     </nav>

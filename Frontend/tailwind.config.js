@@ -20,8 +20,14 @@ export default {
       fontFamily: {
         bebas: ['Bebas Neue', 'cursive'],
       },
-     
+    },
+  },
+  variants: {
+    extend: {
+      backdropFilter: ['responsive'],
+      backdropBlur: ['responsive'],
+      backdropBrightness: ['responsive'],
     },
   },
   plugins: [],
-}
+};

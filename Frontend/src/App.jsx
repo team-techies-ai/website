@@ -7,10 +7,14 @@ import Hero from "./Main/Hero"
 import { Routes, Route } from "react-router-dom";
 import Blogs from "./Blogs/blogs.jsx";
 import Team from "./team/Team.jsx";
+import Signin from "./Signin/Signin.jsx";
+import Signup from "./Signup/Signup.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx"
 
 const App = () => {
   return (
     <div className="flex flex-col  bg-[#0b0314] text-white  min-h-screen App">
+      <ScrollToTop />
       <Navbar />
       <main className="flex-grow container mx-auto py-6">
         <Routes>
@@ -18,6 +22,8 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<Team />} />
+          <Route path="/signin" element={<Signin/>} />
+          <Route path="/signup" element={<Signup/>} />
         </Routes>
       </main>
       <Footer />
