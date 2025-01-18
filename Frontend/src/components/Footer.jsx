@@ -1,82 +1,45 @@
-import logo from "../assets/Untitled design 1.svg"
+import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+
 const Footer = () => {
   return (
-    <>
-    <div className=" flex text-white justify-between p-10 mt-32 sticky bottom-0 ">
-      <div>
-        <img src={logo} alt="logo" />
-      </div>
-      <div>company
-        <ul className="font-thin">
-          <li>Blog</li>
-          <li>careers</li>
-          <li>pricing</li>
-          <li>customers</li>
-          
-        </ul>
-      </div>
-      <div>
-        Resources
-        <ul className="font-thin">
-          <li>Documentation</li>
-          <li>papers</li>
-          <li>press</li>
-          
-        </ul>
-      </div>
-      <div>
-        Solution 
-        <ul className="font-thin">
-          <li>PCI Compliance</li>
-          <li>Encryption as service</li>
-          <li>Credential Encryption</li>
-          <li>file Encryption</li>
-          <li>pil Encryption</li>
-          <li>HIPAA Compliance</li>
-        </ul>
-      </div>
-      <div>
-        legal
-        <ul className="font-thin">
-          <li>Terms of service</li>
-          <li>privacy plocicy</li>
-          <li>cookies plocicy</li>
-          <li>Data protection</li>
-          
-        </ul>
-      </div>
-      <div>
-        complaints
-        <ul className="font-thin">
-          <li>PCI level 1</li>
-          <li>SOC 2 Type </li>
-          
-        </ul>
-      </div>
+    <div className="max-w-screen-lg mx-auto text-white p-6 sm:p-8 md:p-10 mt-10 sm:mt-16 md:mt-20">
+      {/* Footer Sections in a Single Row */}
+      <div className="flex flex-col sm:flex-row justify-between items-center gap-8 sm:gap-12">
+        {/* Copyright Section */}
+        <div className="text-center sm:text-left">
+          <p className="font-light text-lg sm:text-xl md:text-xl text-gray-300">
+            Copyrights &copy; Team Techies 2024
+          </p>
+        </div>
 
+        {/* Social Media Section */}
+        <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 text-center sm:text-left">
+          <h4 className="font-light text-lg sm:text-xl md:text-xl text-gray-300">Follow Us</h4>
+          <div className="flex gap-6 justify-center sm:justify-start">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="text-2xl hover:text-blue-700" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="text-2xl hover:text-pink-500" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <FaTwitter className="text-2xl hover:text-blue-400" />
+            </a>
+          </div>
+        </div>
+
+        {/* About Us and Privacy Policy Section */}
+        <div className="flex flex-col sm:flex-row gap-6 text-center sm:text-left">
+          <a href="/about" className="font-light text-lg sm:text-xl md:text-xl text-gray-300 hover:underline">
+            About Us
+          </a>
+          <a href="/privacy-policy" className="font-light text-lg sm:text-xl md:text-xl text-gray-300 hover:underline">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
     </div>
-    <div className="text-center items-center">   <p>&copy; Team Techies 2024 </p>
-    </div>
-    <div 
-  className=" inset-x-0 bottom-0 h-20 w-full"
-  style={{
-    background: `
-      radial-gradient(
-        100% 100% at 50% 100%,
-        #2D0C57 0%,
-        rgba(45, 12, 87, 0.5) 35%,
-        rgba(45, 12, 87, 0.2) 60%,
-        transparent 100%
-      )
-    `
-  }}
-/>
+  );
+};
 
-
-
-    
-    </>
-  )
-}
-
-export default Footer
+export default Footer;

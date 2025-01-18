@@ -1,7 +1,8 @@
 import mainprofile from "../assets/Rectangle.jpg"
+
 const Mainprofile = () => {
   return (
-    <div className="relative p-6 rounded-xl h-[400px] w-[1000px] m-8 ml-32">
+    <div className="relative p-4 md:p-6 rounded-xl w-full max-w-[1000px] mx-auto my-8">
       <div
         className="absolute inset-0 rounded-xl p-[2px]"
         style={{
@@ -12,31 +13,30 @@ const Mainprofile = () => {
         <div className="h-full w-full bg-[#0b0314] rounded-xl"></div>
       </div>
 
-      <div className="relative flex  justify-center -mt-12">
-        <div>
-        <div className="h-[200px] w-[250px] rounded-full border-4 border-[#2D0C57] mt-20 shadow-2xl shadow-gradinet overflow-hidden ml-3">
-          <img
-            src={mainprofile}
-            alt="Profile"
-            className="h-full w-full object-cover rounded-full"
-          />
-
+      <div className="relative flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start gap-8 pt-8">
+        <div className="text-center md:text-left">
+          <div className="h-[200px] w-[200px] md:h-[250px] md:w-[250px] rounded-full border-4 border-[#2D0C57] shadow-2xl shadow-gradient overflow-hidden mx-auto md:mx-0">
+            <img
+              src={mainprofile || "/placeholder.svg"}
+              alt="Profile"
+              className="h-full w-full object-cover rounded-full"
+            />
+          </div>
+          <h1 className="text-xl mt-4">Mr.Techy ( Lead Innovator )</h1>
+          <h2 className="font-thin">Speech Synthesis | Gen AI |</h2>
+          <h2 className="font-thin">NLP | Machine Transition</h2>
         </div>
-        <h1 className=" text-wrap text-lg m-3"> Mr.Techy ( Lead Innovator )</h1>
-        <h1 className="m-1 ml-5 font-thin">Speech Synnthsis | Gen AI |</h1>
-        <h1 className="m-1 ml-5 font-thin">NLP | Machine Transistion </h1>
 
+        <div className="hidden md:block h-[200px] w-[2px] bg-white/20 my-8"></div>
+
+        <div className="text-center md:text-left mt-8 md:mt-0 max-w-lg">
+          <h1 className="text-2xl md:text-3xl mb-4">Major focus on human computer Interaction</h1>
+          <hr className="bg-gradient-to-tr from-black via-white to-black h-[0.3px] mx-8 md:mx-0 border-none shadow shadow-gray-400"/> 
+          <p className="text-gray-300 font-thin text-lg md:text-xl mt-4">
+            Passionate about empowering students to build real-world AI solutions. On Mission to bridge the Gap between academic knowledge and industry demands through innovation and mentorship.
+          </p>
         </div>
-        <div className="h-[200px] w-[2px] bg-white/20 mt-32 ml-32 m-1"></div>
-
-      <div className=" text-center mt-20 ">
-        <h1 className="text-3xl m-5">Major focus on human computer Interaction </h1>
-        <hr className="bg-gradient-to-tr from-black via-white to-black 0 h-[0.3px] ml-32 mr-32 border-none shadow shadow-gray-400"/> 
-        <p className="text-gray-300 font-thin text-xl m-5  " >
-            Passionate about empowering students to build real-world AI solutions .On Mission to bridge the Gap between academic knowledge and industry demands through innovation and mentorship.        </p>
       </div>
-      </div>
-
     </div>
   );
 };
