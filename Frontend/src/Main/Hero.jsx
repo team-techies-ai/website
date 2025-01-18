@@ -1,4 +1,5 @@
 import img from "../assets/ai prod dev.gif"
+import { Link } from "react-router-dom"
 const Hero = () => {
   return (
     <div className="flex mt-32">
@@ -12,7 +13,7 @@ const Hero = () => {
             <p className="text-xl font-medium p-2">Empowering Stundents and Profesional to Build the Future of AI 
             Join commuinty of passionate minds developing Inovative AI
             Soultions for real world problems.</p>
-            <button className=" bg-white  text-black border rounded-2xl p-[2px] m-1"> <span>&nbsp;</span> Join Team Techies  <span>&nbsp;</span>  </button>
+            <button className=" bg-white  text-black border rounded-2xl p-[2px] m-1"> <span>&nbsp;</span> <Link to="jointeam"> Join Team Techies </Link>  <span>&nbsp;</span>  </button>
             <button className=" bg-black  text-white border rounded-2xl p-1 m-1">About us</button>
             
     

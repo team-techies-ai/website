@@ -10,6 +10,8 @@ import Team from "./team/Team.jsx";
 import Signin from "./Signin/Signin.jsx";
 import Signup from "./Signup/Signup.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx"
+import Join from "./JoinTeam/join.jsx";
+import Subscribe from "./subscribe.jsx/subcribe.jsx"
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
           <Route path="/about" element={<Team />} />
           <Route path="/signin" element={<Signin/>} />
           <Route path="/signup" element={<Signup/>} />
+          <Route path="/subscribe" element={<Subscribe />}  />
+          <Route path="/jointeam" element={<Join/>} />
         </Routes>
       </main>
       <Footer />
