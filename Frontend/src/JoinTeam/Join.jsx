@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import axios from "axios";
+import { JoinTeam } from "../utils/api";
 
 const Join = () => {
   const {
@@ -16,15 +16,14 @@ const Join = () => {
     formData.append("reason", data.reason);
     formData.append("resume", data.resume[0]);
 
-    try {
-      const response = await axios.post("http://localhost:3000/submit", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
+    JoinTeam(formData)
+      .then((response) => {
+        alert(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+        alert("Error submitting form!");
       });
-      alert(response.data);
-    } catch (error) {
-      console.error(error);
-      alert("Error submitting form!");
-    }
   };
 
   return (

@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form";
+import { Savesubscribe } from "../utils/api";
 
 const Subscribe = () => {
   const {
@@ -9,6 +10,7 @@ const Subscribe = () => {
   } = useForm();
 
   const onSubmit = (data) => {
+    Savesubscribe(data);
     console.log("Subscription Data Submitted:", data);
     alert("Subscription Successful!");
     reset();
