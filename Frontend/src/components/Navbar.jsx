@@ -23,7 +23,7 @@ const Navbar = () => {
             <ul className="flex gap-8 cursor-pointer"> 
               <li><Link to="/">Home</Link></li>
               <li><Link to="/team">Our Team</Link></li>   
-              <li><Link to="/blog">About Us</Link></li>            
+              <li><Link to="/about">About Us</Link></li>            
               <li><Link to="/contact">Need AI Solution?</Link></li>
             </ul>
           </div>

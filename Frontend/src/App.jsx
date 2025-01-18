@@ -12,6 +12,7 @@ import Signup from "./Signup/Signup.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx"
 import Join from "./JoinTeam/join.jsx";
 import Subscribe from "./subscribe.jsx/subcribe.jsx"
+import About from "./About/About.jsx"
 
 const App = () => {
   return (
@@ -23,11 +24,11 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/about" element={<Team />} />
           <Route path="/signin" element={<Signin/>} />
           <Route path="/signup" element={<Signup/>} />
           <Route path="/subscribe" element={<Subscribe />}  />
           <Route path="/jointeam" element={<Join/>} />
+          <Route path="/about" element={<About/>} />
         </Routes>
       </main>
       <Footer />
