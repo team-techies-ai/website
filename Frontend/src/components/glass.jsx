@@ -19,7 +19,7 @@
 //   Glass.propTypes = {
 //     head: PropTypes.string.isRequired,
 //     para: PropTypes.string.isRequired,
-//   };
+//   };// Glass.jsx
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
@@ -35,7 +35,7 @@ const Glass = ({ head, para, isMobile }) => {
     <div 
       className={`group w-full backdrop-blur-sm text-white bg-opacity-50 bg-[#0b0314] rounded-lg p-4 text-center items-center relative overflow-hidden border border-white border-opacity-20 transition-all duration-300 ${
         isMobile ? (isExpanded ? 'h-auto' : 'h-[222px]') : 'h-auto'
-      }`}
+      } flex flex-col justify-between`}  // Added flex and justify-between for uniform height
     >
       <h1 className="text-4xl md:text-5xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">
         {head}
@@ -64,4 +64,3 @@ Glass.propTypes = {
   para: PropTypes.string.isRequired,
   isMobile: PropTypes.bool.isRequired,
 };
-

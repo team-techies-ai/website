@@ -4,16 +4,16 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const teamData = {
   "Design Team": [
-    { name: "S MD Isharath", role: "[ UI/UX Designer,Figma,canva] ", image: "" },
+    { name: "S MD Isharath", role: "[Team Lead - UI/UX Designer,Figma,canva] ", image: "" },
     { name: "C Samsundar", role: "[ UI/UX Designer,Figma,canva] ", image: "" },
     { name: "B Naga Pavan", role: "[ UI/UX Designer,Figma,canva] ", image: "" }
   ],
   "Web Development": [
-    { name: "Dinesh", role: "[full stack devloper]", image: "" },
-    { name: "swapna", role: "[full stack devloper]", image: "" },
-    { name: "praneeth", role: "[full stack devloper]", image: "" }
+    { name: "K Pavan", role: "[Team Lead - Mern Stack Developer]", image: "" },
+    { name: "Praneeth", role: "[Mern Stack Developer]", image: "" },
   ],
-  "Computer Vision": [],
+  "Computer Vision": [{ name: "Shaik Alisha", role: "AI Intern", image: "" },
+    { name: "Neeraj", role: "AI Intern", image: "" },],
   "Gen AI": [],
   "Speech": [],
   "Other": []
@@ -22,13 +22,13 @@ const teamData = {
 const Profile = ({ name, role, image }) => {
   return (
     <div className="group">
-      <div className="flex text-white justify-between w-full max-w-[400px] mx-auto my-4 rounded-xl p-2 hover:bg-white/10 transition-all duration-300">
+      <div className="flex text-white w-full max-w-[400px] mx-auto my-4 rounded-xl p-2 hover:bg-white/10 transition-all duration-300">
         <div>
           <img src={profileimg || "/placeholder.svg"} alt={name} className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] rounded-full bg-white" />
         </div>
         <div className="flex flex-col justify-center ml-4">
-          <h1 className="text-lg md:text-xl font-bold">{name}</h1>
-          <p className="text-sm md:text-base text-gray-300">{role}</p>
+          <h1 className="text-lg text-center md:text-xl font-bold">{name}</h1>
+          <p className="text-sm text-center md:text-base text-gray-300">{role}</p>
         </div>
       </div>
       <hr className="bg-gradient-to-tr from-black via-white to-black h-[0.3px] mx-4 md:mx-32 border-none shadow shadow-gray-400 opacity-100 transition-opacity duration-300" />
@@ -63,7 +63,7 @@ const Allprofiles = () => {
   };
 
   return (
-    <div className="relative p-4 md:p-6 rounded-xl w-full max-w-[1000px] mx-auto my-8">
+    <div className="relative p-4 md:p-6 rounded-xl w-full max-w-[1100px] mx-auto my-8">
       <div
         className="absolute inset-0 rounded-xl p-[2px]"
         style={{
@@ -75,7 +75,7 @@ const Allprofiles = () => {
       </div>
 
       <div className="relative flex flex-col md:flex-row -mt-4 md:-mt-16">
-        <div className="text-xl md:text-3xl font-bold text-white mt-8 md:mt-20 flex items-center justify-between md:flex-col md:items-start p-4 md:p-0">
+        <div className="text-2xl md:text-2xl font-medium text-white mt-8 md:mt-20 flex items-center justify-between md:flex-col md:items-start p-4 md:p-0">
           {isMobile ? (
             <>
               <button
@@ -85,7 +85,7 @@ const Allprofiles = () => {
               >
                 <ChevronLeft className="w-6 h-6" />
               </button>
-              <div className="px-4 py-2 text-center">
+              <div className="px-4 py-2 text-center font-medium">
                 {teamNames[currentIndex]}
               </div>
               <button
