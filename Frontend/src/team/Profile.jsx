@@ -1,8 +1,8 @@
-import profile from "../assets/progile.jpg"
+import profile from "../assets/progile.jpg";
 
 const Profile = () => {
   return (
-    <div className="relative max-w-sm mx-auto p-4 md:p-6 rounded-xl h-auto md:h-[400px] w-full md:w-[400px]">
+    <div className="relative max-w-md mx-auto p-2 md:p-4 rounded-xl h-auto md:h-[400px] w-full md:w-[500px]">
       <div
         className="absolute inset-0 rounded-xl p-[2px]"
         style={{
@@ -14,7 +14,7 @@ const Profile = () => {
       </div>
 
       <div className="relative flex flex-col items-center pt-8">
-        <div className="h-[130px] w-[130px] rounded-full bg-white border-4 border-[#2D0C57] shadow-2xl shadow-gradient overflow-hidden">
+        <div className="h-[140px] w-[140px] rounded-full bg-white border-4 border-[#2D0C57] shadow-2xl shadow-gradient overflow-hidden">
           <img
             src={profile || "/placeholder.svg"}
             alt="Profile"
@@ -22,10 +22,10 @@ const Profile = () => {
           />
         </div>
 
-        <div className="text-center mt-6">
-          <h2 className="text-white text-2xl font-bold">Guru Darpan</h2>
-          <p className="text-gray-400 mt-2 text-sm">[ Computer Vision | LLM's ]</p>
-          <p className="text-gray-300 mt-4">
+        <div className="text-center mt-4">
+          <h2 className="text-white text-2xl font-medium">Guru Darpan</h2>
+          <p className="text-gray-400 mt-1 text-lg">[ Computer Vision | LLM's ]</p>
+          <p className="text-gray-300 mt-3 font-medium text-lg">
             Major Focus on Low-Level Coding for Computer Vision Applications and LLM's
           </p>
         </div>

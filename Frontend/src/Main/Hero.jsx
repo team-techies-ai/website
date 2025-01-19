@@ -124,7 +124,7 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 const Hero = () => {
   return (
-    <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-[80px] lg:pt-[120px] overflow-hidden">
+    <div className=" mx-auto sm:px-6  pt-[80px] lg:pt-[120px] overflow-hidden">
       {/* Top right blowing gradient */}
       <div className="absolute top-0 right-0 w-[250px] h-[250px] opacity-30 animate-blow-gradient">
         <div className="w-full h-full bg-gradient-to-br from-[#8C81FF] via-[#A0A0A0] to-transparent blur-3xl" />
