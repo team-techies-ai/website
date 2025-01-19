@@ -1,4 +1,4 @@
-import mainprofile from "../assets/Rectangle.jpg"
+import mainprofile from "../assets/sunil.jpeg"
 
 const Mainprofile = () => {
   return (

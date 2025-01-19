@@ -6,35 +6,35 @@ import gradient1 from "../assets/Gradients.png";  // Your gradient image
 const About = () => {
   return (
     <div className="container mx-auto px-4 pt-[120px] lg:pt-[150px]">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl sm:text-5xl font-medium mb-4 tracking-wide">
+      <div className="text-center ">
+        <h1 className="text-4xl sm:text-5xl font-medium tracking-wide">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3] leading-tight">
             About Team Techies
           </span>
         </h1>
         <p className="text-lg sm:text-xl font-medium">
-          Empowering the next generation of tech innovators through collaboration, AI, and Web Development.
+          Empowering the next generation of AI Innovators.
         </p>
       </div>
 
       {/* Who We Are Section */}
       <div className="mb-12 flex flex-col lg:flex-row items-center justify-between">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-          <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Who We Are</h2>
+          <h2 className="text-2xl sm:text-3xl font-semibold mt-10 mb-4">Who Are we?</h2>
           <p className="text-base sm:text-lg mb-4">
-            Team Techies is a group of passionate students and professionals who come together to explore and innovate in the world of technology. Our goal is to learn, grow, and create amazing solutions with Artificial Intelligence (AI) and Web Development. We're here to make a real impact and help each other succeed in the tech world.
+            Team Techies is a group of passionate students and professionals who come together to explore and innovate in the world of Artificial Intelligence. Our focus is on continuos learning, innovation, and collaboration to develop AI-driven solutions that enhance human productivity. We're here to make a real impact in the society with our Innovation and help each other to succeed in the AI world.
           </p>
-          <p className="text-base sm:text-lg">
-            We focus on continuous learning, innovation, and collaboration to create AI-driven solutions and build impactful web applications.
-          </p>
+          {/* <p className="text-base sm:text-lg">
+          We focus on continuous learning, innovation, and collaboration to develop AI-driven solutions that enhance human productivity.
+          </p> */}
         </div>
-        <div className="w-full lg:w-1/2">
+        {/* <div className="w-full lg:w-1/2">
           <img
             src={img || "/placeholder.svg"}
             alt="Team Techies"
             className="w-full h-auto rounded-lg shadow-lg"
           />
-        </div>
+        </div> */}
       </div>
 
       {/* What We Do Section */}
