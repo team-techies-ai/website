@@ -11,7 +11,7 @@ export const Savelogin=async(data)=>{
     return await axios.post(`${Baseurl}/login`,data)
 }
 export const JoinTeam=async(data)=>{
-    return await axios.post(`${Baseurl}/join`,data)
+    return await axios.post(`${Baseurl}/team`,data)
 }
 export const Contact=async(data)=>{
     return await axios.post(`${Baseurl}/contact`,data)
