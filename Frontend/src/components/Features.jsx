@@ -145,7 +145,7 @@
 // };
 
 // export default Features;
-
+// Features.jsx
 import { useState, useEffect, useRef } from 'react';
 import lines from "../assets/Group12.svg";
 import Glass from "./Glass";
@@ -184,9 +184,9 @@ const Features = () => {
   }, []);
 
   const features = [
-    { head: "Learn", para: "Master the foundations of AI by working on projects that are in demand in the Industry Master the foundations of AI by working on projects that are in demand in the Industry Master the foundations of AI by working on projects that are in demand in the Industry" },
-    { head: "Innovate", para: "Be a part of bringing innovation in AI that enhances the human productivity" },
-    { head: "Collaborate", para: "Team up with the community of AI Innovators to build our client projects" }
+    { head: "Learn", para: "Master the foundation of AI by working on projects that are in demand in the industry. Gain practical skills that will help you stand out in your career." },
+    { head: "Innovate", para: "Be part of bringing innovations in Artificial Intelligence that enhances the human life easier and boost productivity. Contribute to research of Team Techies in AI that shapes changes the future." },
+    { head: "Collaborate", para: "Team up with a passionate community of AI enthusiasts to build our client projects. Share knowledge and grow your Network." }
   ];
 
   return (
@@ -196,7 +196,7 @@ const Features = () => {
         className={`relative w-full p-6 lg:p-10 ${
           isMobile ? 'bg-none' : 'bg-no-repeat bg-cover bg-center'
         }`}
-        // style={isMobile ? {} : { backgroundImage: `url(${lines})` }}
+        // style={isMobile ? {} : { backgroundImage: url(${lines}) }}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10">
           {features.map((feature, index) => (
@@ -221,4 +221,3 @@ const Features = () => {
 };
 
 export default Features;
-
