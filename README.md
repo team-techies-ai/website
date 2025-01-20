@@ -2,4 +2,5 @@
 
 - This is offical website of team techies
 
-- to start App `npm run dev`
+- to start Frontend `npm run dev`
+- to start Backend  `npm run dev`
