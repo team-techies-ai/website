@@ -22,6 +22,19 @@ export default {
       },
     },
   },
+  theme: {
+    extend: {
+      animation: {
+        shine: "shine 2s infinite",
+      },
+      keyframes: {
+        shine: {
+          "0%": { left: "-100%" },
+          "100%": { left: "100%" },
+        },
+      },
+    },
+  },
   variants: {
     extend: {
       backdropFilter: ['responsive'],
