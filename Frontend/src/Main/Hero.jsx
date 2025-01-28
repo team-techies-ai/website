@@ -160,20 +160,34 @@ const Hero = () => {
             Join a community of passionate minds developing Innovative AI
             Solutions that enhance human productivity.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+          {/* <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
             <Link
               to="about"
-              className="bg-white text-black border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors w-full sm:w-auto text-center"
+              className="bg-white text-black border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto sm:w-0.5 text-center"
             >
               What we do ?
             </Link>
             <Link
               to="jointeam"
-              className="bg-black text-white border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors w-full sm:w-auto text-center"
+              className="bg-black text-white border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto sm:w-0.5 text-center"
             >
               Join Team
             </Link>
-          </div>
+          </div> */} 
+          <div className="flex flex-row justify-center lg:justify-start gap-4">
+        <Link
+          to="about"
+          className="bg-white text-black border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
+        >
+          What we do ?
+        </Link>
+        <Link
+          to="jointeam"
+          className="bg-black text-white border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
+        >
+          Join Team
+        </Link>
+        </div>
         </div>
       </div>
     </div>

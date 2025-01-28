@@ -234,7 +234,18 @@ const Contact = () => {
   }
 
   return (
-    <div className="relative p-4 md:p-6 rounded-xl w-full max-w-[1100px] mx-auto mt-28 lg:mt-28">
+    <>
+    <div className="text-center pt-24">
+        <h1 className="text-4xl sm:text-5xl font-medium tracking-wide">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3] leading-tight">
+            About Team Techies
+          </span>
+        </h1>
+        <p className="text-lg sm:text-xl font-medium">
+          Empowering the next generation of AI Innovators.
+        </p>
+      </div>
+    <div className="relative p-4 md:p-6 rounded-xl w-full max-w-[1100px] mx-auto mt-28 lg:mt-16">
       <div
         className="absolute inset-0 rounded-xl p-[2px]"
         style={{
@@ -400,6 +411,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    </>
   )
 }
 

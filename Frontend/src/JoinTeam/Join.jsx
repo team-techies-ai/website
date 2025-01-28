@@ -179,11 +179,11 @@ const Join = () => {
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
         <div>
-          <label className="block text-sm text-white font-medium mb-2">Name</label>
           <input
             type="text"
+            placeholder="Enter your Name"
             {...register("name", { required: "Name is required" })}
-            className="w-full p-3 rounded focus:ring-2 focus:ring-[#7203FF] outline-none"
+            className="w-full p-3 bg-[#0b0314] text-white border rounded-md outline-none relative z-10 placeholder-gray-500"
           />
           {errors.name && (
             <p className="text-[#7203FF] text-sm mt-1">{errors.name.message}</p>
@@ -191,9 +191,9 @@ const Join = () => {
         </div>
 
         <div>
-          <label className="block text-sm text-white font-medium mb-2">Email</label>
           <input
             type="email"
+            placeholder="Enter your email"
             {...register("email", {
               required: "Email is required",
               pattern: {
@@ -201,7 +201,7 @@ const Join = () => {
                 message: "Invalid email address",
               },
             })}
-            className="w-full p-3 rounded focus:ring-2 focus:ring-[#7203FF] outline-none"
+            className="w-full p-3 bg-[#0b0314] text-white border rounded-md outline-none relative z-10 placeholder-gray-500"
           />
           {errors.email && (
             <p className="text-[#7203FF] text-sm mt-1">{errors.email.message}</p>
@@ -209,9 +209,9 @@ const Join = () => {
         </div>
 
         <div>
-          <label className="block text-sm text-white font-medium mb-2">Contact</label>
           <input
             type="tel"
+            placeholder="Enter your Contact"
             {...register("contact", {
               required: "Contact is required",
               pattern: {
@@ -219,7 +219,7 @@ const Join = () => {
                 message: "Invalid contact number",
               },
             })}
-            className="w-full p-3 rounded focus:ring-2 focus:ring-[#7203FF] outline-none"
+            className="w-full p-3 bg-[#0b0314] text-white border rounded-md outline-none relative z-10 placeholder-gray-500"
           />
           {errors.contact && (
             <p className="text-[#7203FF] text-sm mt-1">{errors.contact.message}</p>
@@ -227,11 +227,11 @@ const Join = () => {
         </div>
 
         <div>
-          <label className="block text-sm text-white font-medium mb-2">Resume</label>
           <input
             type="file"
+            placeholder="Enter your Resume"
             {...register("resume", { required: "Resume is required" })}
-            className="w-full p-3 bg-white rounded focus:ring-2 focus:ring-[#7203FF] outline-none"
+            className="w-full p-3 bg-[#0b0314] text-white border rounded-md outline-none relative z-10 placeholder-gray-500"
           />
           {errors.resume && (
             <p className="text-[#7203FF] text-sm mt-1">{errors.resume.message}</p>
@@ -251,11 +251,11 @@ const Join = () => {
         </div> */}
 
         <div>
-          <label className="block text-sm text-white font-medium mb-2">Cover Letter</label>
           <input
             type="file"
-            {...register("coverLetter", { required: "Cover Letter is required" })}
-            className="w-full p-3 bg-white rounded focus:ring-2 focus:ring-[#7203FF] outline-none"
+            placeholder="Enter Cover Letter"
+            {...register("coverLetter")}
+            className="w-full p-3 bg-[#0b0314] text-white border rounded-md outline-none relative z-10 placeholder-gray-500"
           />
           {errors.coverLetter && (
             <p className="text-[#7203FF] text-sm mt-1">{errors.coverLetter.message}</p>
