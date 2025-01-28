@@ -41,9 +41,11 @@ function Home() {
   return (
     <div className=" text-white  min-h-screen ">
       <Hero />
-      <Features />
-      <Sunil/>
       <Specialization />
+      <Sunil/>
+      <Features />
+
+      
     </div>
   )
 }

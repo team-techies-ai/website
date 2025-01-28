@@ -185,13 +185,13 @@ const Features = () => {
 
   const features = [
     { head: "Learn", para: "Master the foundation of AI by working on projects that are in demand in the industry. Gain practical skills that will help you stand out in your career." },
-    { head: "Innovate", para: "Be part of bringing innovations in Artificial Intelligence that enhances the human life easier and boost productivity. Contribute to research of Team Techies in AI that shapes changes the future." },
-    { head: "Collaborate", para: "Team up with a passionate community of AI enthusiasts to build our client projects. Share knowledge and grow your Network." }
+    { head: "Innovate", para: "Be a part of bringing innovations in AI, Contribute to research of Team Techies that enhances the human life easier and boost productivity.." },
+    { head: "Collaborate", para: "Team up with a passionate community of AI and ML enthusiasts to build our client projects. And grow your Network by connecting with liked mindsets" }
   ];
 
   return (
-    <div ref={featuresRef} className="px-6 max-w-7xl mx-auto min-h-screen flex flex-col justify-center mt-20">
-      <h1 className="text-2xl md:text-4xl lg:text-5xl font-medium text-center m-4 mb-5 lg:mb-10">We Believe in</h1>
+    <div ref={featuresRef} className="px-6 max-w-7xl mx-auto min-h-screen flex flex-col justify-center ">
+      <h1 className="text-2xl md:text-4xl lg:text-5xl font-medium text-center m-4 mb-5 lg:mb-5">We Believe in</h1>
       <div 
         className={`relative w-full p-6 lg:p-10 ${
           isMobile ? 'bg-none' : 'bg-no-repeat bg-cover bg-center'
@@ -216,7 +216,10 @@ const Features = () => {
           ))}
         </div>
       </div>
+      
+
     </div>
+    
   );
 };
 
