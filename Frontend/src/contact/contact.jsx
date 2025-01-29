@@ -44,7 +44,7 @@ const Contact = () => {
     <div className="text-center pt-24">
         <h1 className="text-4xl sm:text-5xl font-medium tracking-wide">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3] leading-tight">
-            About Team Techies
+            Looking for an AI Solution
           </span>
         </h1>
         <p className="text-lg sm:text-xl font-medium">
@@ -136,15 +136,11 @@ const Contact = () => {
               className="w-full p-3 bg-[#0b0314] text-white border rounded-md outline-none relative placeholder-gray-500"
             />
           </div>
-        
           <div className="flex gap-4">
-                  <div className="relative flex-1">
+                  <div className="relative flex-1 w-full">
                     <div
                       className="absolute inset-0 rounded-md p-[1px]"
-                      style={{
-                        background:
-                          "conic-gradient(from 0deg, #2D0C57 0deg, #2D0C57 10deg, #2D0C57 50deg, white 70deg, #2D0C57 80deg, #2D0C57 93deg, white 110deg, #2D0C57 130deg, #2D0C57 150deg, #2D0C57 170deg, #2D0C57 190deg, #2D0C57 230deg, white 240deg, #2D0C57 260deg, #2D0C57 280deg, white 300deg, #2D0C57 310deg, #2D0C57 360deg)",
-                      }}
+                     
                     ></div>
                     <DatePicker
                       selected={formData.date}
@@ -154,13 +150,9 @@ const Contact = () => {
                       className="w-full p-3 bg-[#0b0314] text-white border rounded-md outline-none relative z-10"
                     />
                   </div>
-                  <div className="relative flex-1 ">
+                  <div className="relative flex ">
                     <div
-                      className="absolute inset-0 rounded-md p-[1px]"
-                      style={{
-                        background:
-                          "conic-gradient(from 0deg, #2D0C57 0deg, #2D0C57 10deg, #2D0C57 50deg, white 70deg, #2D0C57 80deg, #2D0C57 93deg, white 110deg, #2D0C57 130deg, #2D0C57 150deg, #2D0C57 170deg, #2D0C57 190deg, #2D0C57 230deg, white 240deg, #2D0C57 260deg, #2D0C57 280deg, white 300deg, #2D0C57 310deg, #2D0C57 360deg)",
-                      }}
+                      className="absolute inset-0 rounded-md p-[1px] "
                     ></div>
                     <DatePicker
                       selected={formData.time}
@@ -186,7 +178,7 @@ const Contact = () => {
             <input
               type="text"
               name="title"
-              placeholder="Title"
+              placeholder="Problem Statement"
               value={formData.title}
               onChange={handleChange}
               required
@@ -195,7 +187,7 @@ const Contact = () => {
           </div>
           <div className="relative">
             <div
-              className="absolute inset-0 rounded-md p-[1px]"
+              className="  rounded-md "
               style={{
                 background:
                   "conic-gradient(from 0deg, #2D0C57 0deg, #2D0C57 10deg, #2D0C57 50deg, white 70deg, #2D0C57 80deg, #2D0C57 93deg, white 110deg, #2D0C57 130deg, #2D0C57 150deg, #2D0C57 170deg, #2D0C57 190deg, #2D0C57 230deg, white 240deg, #2D0C57 260deg, #2D0C57 280deg, white 300deg, #2D0C57 310deg, #2D0C57 360deg)",
@@ -214,7 +206,7 @@ const Contact = () => {
             type="submit"
             className="bg-[#2D0C57] text-white py-3 px-4 rounded-md transition-colors duration-300 hover:bg-[#3D1C67] focus:outline-none focus:ring-2 focus:ring-[#2D0C57] focus:ring-opacity-50"
           >
-            Submit
+            Schedule a Call
           </button>
         </form>
       </div>
