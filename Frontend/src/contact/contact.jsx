@@ -93,7 +93,7 @@ const Contact = () => {
       <div className="text-center pt-24">
         <h1 className="text-4xl sm:text-5xl font-medium tracking-wide">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3] leading-tight">
-            About Team Techies
+            Looking for an AI Solution
           </span>
         </h1>
         <p className="text-lg sm:text-xl font-medium">Empowering the next generation of AI Innovators.</p>
