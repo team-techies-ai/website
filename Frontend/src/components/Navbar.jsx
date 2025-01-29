@@ -73,8 +73,8 @@ const Navbar = () => {
       <nav className="fixed top-0 left-0 w-full backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#0b0314] h-[100px] mt-4 text-white z-50 border border-none rounded-3xl px-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex gap-2 items-center">
-            <img src={logo || "/placeholder.svg"} alt="logo" className="w-20"/>
-            <span className="text-2xl font-bold">TEAM TECHIES</span>
+           <Link to="/"> <img src={logo || "/placeholder.svg"} alt="logo" className="w-20"/></Link>
+            <span className="text-2xl font-bold"><Link to="/">TEAM TECHIES</Link></span>
           </div>
           
           <div className="hidden lg:block">

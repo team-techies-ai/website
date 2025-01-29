@@ -13,7 +13,7 @@ export const Savelogin=async(data)=>{
 export const JoinTeam=async(data)=>{
     return await axios.post(`${Baseurl}/team`,data)
 }
-export const Contact=async(data)=>{
-    return await axios.post(`${Baseurl}/contact`,data)
+export const ContactApi=async(data)=>{
+    return await axios.post(`${Baseurl}/clients`,data)
 }
 
