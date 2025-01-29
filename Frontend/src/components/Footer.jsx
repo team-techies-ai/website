@@ -35,7 +35,7 @@ const Footer = () => {
             About Us
           </a>
           <a href="/privacy-policy" className="font-small text-lg sm:text-xl md:text-xl text-gray-300 hover:underline">
-            Privacy Policy
+            Privacy Policyy
           </a>
         </div>
       </div>
