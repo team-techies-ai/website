@@ -14,6 +14,7 @@ import Join from "./JoinTeam/Join.jsx";
 import Subscribe from "./subscribe.jsx/subcribe.jsx"
 import About from "./About/About.jsx"
 import Contact from "./contact/contact.jsx"
+import Register from "./Auth/Register.jsx"
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/jointeam" element={<Join/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/register" element={<Register/>} />
         </Routes>
       </main>
       <Footer />
