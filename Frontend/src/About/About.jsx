@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../assets/Untitled design 1.svg"; // Your team image
+import img from "../assets/Contact.png"; // Your team image
 import gradient1 from "../assets/Gradients.png";  // Your gradient image
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
       </div>
 
       {/* Who We Are Section */}
-      <div className="mb-12 flex flex-col lg:flex-row items-center justify-between">
+      <div className="mb-12 flex flex-col lg:flex-row items-center justify-start">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
           <h2 className="text-2xl sm:text-3xl font-semibold mt-10 mb-4">Who Are we?</h2>
           <p className="text-base sm:text-lg mb-4">
@@ -28,13 +28,13 @@ const About = () => {
           We focus on continuous learning, innovation, and collaboration to develop AI-driven solutions that enhance human productivity.
           </p> */}
         </div>
-        {/* <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/3 ">
           <img
             src={img || "/placeholder.svg"}
             alt="Team Techies"
             className="w-full h-auto rounded-lg shadow-lg"
           />
-        </div> */}
+        </div>
       </div>
 
       {/* What We Do Section */}

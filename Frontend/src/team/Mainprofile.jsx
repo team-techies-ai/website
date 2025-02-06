@@ -24,7 +24,7 @@ const Mainprofile = () => {
       />
     </div>
     <h2 className="text-xl text-center mt-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">Mr.Techy ( Lead Innovator )</h2>
-    <h3 className="text-gray-300 text-justify text-lg md:text-xl mt-4 ">
+    <h3 className="text-gray-300 text-center text-lg md:text-xl mt-4 ">
       Speech Synthesis | Gen AI | NLP | Machine Transition
     </h3>
   </div>

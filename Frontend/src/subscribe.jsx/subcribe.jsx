@@ -1,5 +1,7 @@
 import { useForm } from "react-hook-form";
 import { Savesubscribe } from "../utils/api";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Subscribe = () => {
   const {
@@ -9,12 +11,40 @@ const Subscribe = () => {
     reset,
   } = useForm();
 
-  const onSubmit = (data) => {
-    Savesubscribe(data);
-    console.log("Subscription Data Submitted:", data);
-    alert("Subscription Successful!");
-    reset();
+  const notifySuccess = () => {
+    toast.success("Form submitted successfully!", {
+      style: {
+        background: "#7203FF", // Success color
+        color: "white",
+      },
+      position: "bottom-right", // Toast position
+      autoClose: 3000,
+    });
   };
+
+  const notifyError = () => {
+    toast.error("Error submitting form!", {
+      style: {
+        background: "orange", // Error color
+        color: "white",
+      },
+      position: "bottom-right", // Toast position
+      autoClose: 3000,
+    });
+  };
+
+  const onSubmit = async (data) => {
+    setIsLoading(true)
+    try {
+      await Savesubscribe(data)
+      notifySuccess();
+      console.log("Subscription Data Submitted:", data)
+      reset()
+    } catch (error) {
+      notifyError();
+      console.error("Error saving subscription:", error)
+    } 
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center text-white">
@@ -72,8 +102,10 @@ const Subscribe = () => {
           </button>
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };
 
 export default Subscribe;
+"use client"

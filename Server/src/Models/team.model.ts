@@ -8,7 +8,7 @@ const teamSchema: Schema = new Schema(
     email: { type: String, required: true, unique: true },
     contact: { type: String, required: true },
     resume: { type: String, required: true },
-    coverLetter: { type: String, required: true },
+    coverLetter: { type: String},
   },
   { timestamps: true }
 );

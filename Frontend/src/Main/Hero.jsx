@@ -150,30 +150,44 @@ const Hero = () => {
 
         {/* Text content section */}
         <div className="w-full lg:w-1/2 order-2 lg:order-1 text-center lg:text-left lg:pr-8 lg:ml-12">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-medium mb-4 tracking-wide">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-medium mb-4 tracking-wide">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#035bff] via-white to-[#4c70b3] leading-tight">
               A Game changing platform for AI Innovators
             </span>
           </h1>
-          <p className="text-base sm:text-lg font-medium mb-6">
+          <p className="text-base sm:text-lg font-small mb-6 text-xl md:text-xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
             Empowering Students and Professionals to Build the Future of AI.
             Join a community of passionate minds developing Innovative AI
             Solutions that enhance human productivity.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+          {/* <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
             <Link
               to="about"
-              className="bg-white text-black border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors w-full sm:w-auto text-center"
+              className="bg-white text-black border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto sm:w-0.5 text-center"
             >
               What we do ?
             </Link>
             <Link
               to="jointeam"
-              className="bg-black text-white border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors w-full sm:w-auto text-center"
+              className="bg-black text-white border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto sm:w-0.5 text-center"
             >
               Join Team
             </Link>
-          </div>
+          </div> */} 
+          <div className="flex flex-row justify-center lg:justify-start gap-4">
+        <Link
+          to="about"
+          className="bg-white text-black border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
+        >
+          What we do ?
+        </Link>
+        <Link
+          to="jointeam"
+          className="bg-black text-white border rounded-2xl px-6 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
+        >
+          Join Team
+        </Link>
+        </div>
         </div>
       </div>
     </div>

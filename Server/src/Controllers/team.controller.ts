@@ -71,7 +71,7 @@ export const joinTeam = async (req: Request, res: Response): Promise<void> => {
     // Type assertion for req.files
     const files = req.files as MulterFiles | undefined
 
-    if (!files || !files.resume || !files.coverLetter) {
+    if (!files || !files.resume ) {
       res.status(400).json({ error: "Missing required files" })
       return
     }
@@ -85,7 +85,7 @@ export const joinTeam = async (req: Request, res: Response): Promise<void> => {
     if (!email) missingFields.push("email")
     if (!contact) missingFields.push("contact")
     if (!resume) missingFields.push("resume")
-    if (!coverLetter) missingFields.push("coverLetter")
+  
 
     if (missingFields.length > 0) {
       res.status(400).json({
