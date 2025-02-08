@@ -12,9 +12,9 @@ const teamData = {
     { name: "K Pavan", role: "[Team Lead - Mern Stack Developer]", image: "" },
     { name: "Praneeth", role: "[Mern Stack Developer]", image: "" },
   ],
-  "Computer Vision": [{ name: "Shaik Alisha", role: "AI Intern", image: "" },
-    { name: "Neeraj", role: "AI Intern", image: "" },],
-  "Gen AI": [],
+  "Computer Vision": [{ name: "Shaik Alisha", role: "Computer Vision Intern", image: "" },
+    { name: "Neeraj", role: "Computer Vision Intern", image: "" },],
+  "Gen AI": [{name:"Mahendra",role:"Generative AI Intern"}],
   "Speech": [],
   "Other": []
 };

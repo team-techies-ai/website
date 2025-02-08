@@ -70,7 +70,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#0b0314] h-[100px] mt-4 text-white z-50 border border-none rounded-3xl px-4">
+      <nav className="fixed top-0 left-0 w-full backdrop-filter backdrop-blur-lg bg-opacity-30 bg-[#0b0314] h-[100px]  text-white z-50 border border-none rounded-3xl px-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex gap-2 items-center">
            <Link to="/"> <img src={logo || "/placeholder.svg"} alt="logo" className="w-20"/></Link>
@@ -101,7 +101,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`lg:hidden fixed inset-y-0 right-0 w-64  bg-[#3D1C67] transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50 flex flex-col justify-start pt-20`}>
+        <div className={`lg:hidden fixed inset-y-0 right-0 w-64  bg-[#3D1C67] transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50 flex flex-col justify-start pt-10`}>
           <button 
             className="absolute top-4 right-4 text-white"
             onClick={toggleMenu}
