@@ -5,7 +5,6 @@ import Specialization from "./components/Specialization"
 import Sunil from "./components/Sunil"
 import Hero from "./Main/Hero"
 import { Routes, Route } from "react-router-dom";
-import Blogs from "./Blogs/blogs.jsx";
 import Team from "./team/Team.jsx";
 import Signin from "./Signin/Signin.jsx";
 import Signup from "./Signup/Signup.jsx";
@@ -15,6 +14,9 @@ import Subscribe from "./subscribe.jsx/subcribe.jsx"
 import About from "./About/About.jsx"
 import Contact from "./contact/contact.jsx"
 import Register from "./Auth/Register.jsx"
+import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy.jsx"
+import BlogHome from "./Blogs/BlogHome.jsx"
+
 
 const App = () => {
   return (
@@ -25,7 +27,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs" element={<BlogHome />} />
           <Route path="/signin" element={<Signin/>} />
           <Route path="/signup" element={<Signup/>} />
           <Route path="/subscribe" element={<Subscribe />}  />
@@ -33,6 +35,7 @@ const App = () => {
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/register" element={<Register/>} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>}></Route>
         </Routes>
       </main>
       <Footer />
