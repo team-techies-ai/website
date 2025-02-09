@@ -116,7 +116,7 @@ const Register = () => {
         throw new Error(data.message || "Authentication failed")
       }
     } catch (error) {
-      console.error("Auth error:", error) // Log any errors
+      console.error("Auth error:", error) 
       toast.error(error.message, {
         style: {
           background: "#FF0333",
@@ -134,22 +134,22 @@ const Register = () => {
         Register with Team Techies
       </h1>
 
-      <div className="space-y-4">
-        <GoogleLogin
-          onSuccess={handleGoogleAuth}
-          onError={() => {
-            console.error("Login Failed")
-            toast.error("Google Sign In was unsuccessful. Try again later", {
-              style: {
-                background: "#FF0333",
-                color: "white",
-              },
-              position: "bottom-right",
-              autoClose: 3000,
-            })
-          }}
-        />
-      </div>
+      <div className="flex justify-center items-center space-y-6 p-4 rounded-lg bg-opacity-20 bg-purple-900 backdrop-blur-sm border border-purple-500/20 shadow-lg hover:bg-opacity-30 transition-all duration-300">
+  <GoogleLogin
+    onSuccess={handleGoogleAuth}
+    onError={() => {
+      console.error("Login Failed")
+      toast.error("Google Sign In was unsuccessful. Try again later", {
+        style: {
+          background: "#FF0333",
+          color: "white",
+        },
+        position: "bottom-right",
+        autoClose: 3000,
+      })
+    }}
+  />
+</div>
 
       <ToastContainer />
     </div>
