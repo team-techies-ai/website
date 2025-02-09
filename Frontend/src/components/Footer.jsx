@@ -8,14 +8,14 @@ const Footer = () => {
       <div className="flex flex-col sm:flex-row justify-between items-center gap-8 sm:gap-12">
         {/* Copyright Section */}
         <div className="text-center sm:text-left">
-          <p className="font-small text-lg sm:text-xl md:text-xl text-gray-300">
-            Copyrights &copy; Team Techies 2024
+          <p className="font-small text-lg sm:text-lg md:text-lg text-gray-300">
+            Copyrights &copy; Team Techies 2025
           </p>
         </div>
 
         {/* Social Media Section */}
         <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 text-center sm:text-left">
-          <h4 className="font-small text-lg sm:text-xl md:text-xl text-gray-300">Follow Us</h4>
+          <h4 className="font-small text-lg sm:text-lg md:text-lg text-gray-300">Follow Us</h4>
           <div className="flex gap-6 justify-center sm:justify-start">
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-2xl hover:text-blue-700" />
@@ -31,10 +31,13 @@ const Footer = () => {
 
         {/* About Us and Privacy Policy Section */}
         <div className="flex flex-col sm:flex-row gap-6 text-center sm:text-left">
-          <a href="/about" className="font-small text-lg sm:text-xl md:text-xl text-gray-300 hover:underline">
+          {/* <a href="/about" className="font-small text-lg sm:text-lg md:text-lg text-gray-300 hover:underline">
             About Us
+          </a> */}
+          <a href="/jointeam" className="font-small text-lg sm:text-lg md:text-lg text-gray-300 hover:underline">
+            Join Team
           </a>
-          <a href="/privacy-policy" className="font-small text-lg sm:text-xl md:text-xl text-gray-300 hover:underline">
+          <a href="/privacy-policy" className="font-small text-lg sm:text-lg md:text-lg text-gray-300 hover:underline">
             Privacy Policy
           </a>
         </div>

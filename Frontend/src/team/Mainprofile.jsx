@@ -23,9 +23,9 @@ const Mainprofile = () => {
         className="h-full w-full object-cover rounded-full"
       />
     </div>
-    <h2 className="text-xl text-center mt-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">Mr.Techy ( Lead Innovator )</h2>
+    <h2 className="text-xl text-center mt-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">Mr.Techy ( Chief Innovation Officer )</h2>
     <h3 className="text-gray-300 text-center text-lg md:text-xl mt-4 ">
-      Speech Synthesis | Gen AI | NLP | Machine Transition
+      Speech AI | LLM's | RAG's and Agents
     </h3>
   </div>
 
@@ -33,12 +33,12 @@ const Mainprofile = () => {
 
         {/* Text Section */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-lg">
-          <h1 className="text-2xl md:text-3xl mb-4 font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">Major focus on human-computer Interaction</h1>
+          <h1 className="text-2xl md:text-3xl mb-4 font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">Major focus on advancing Human - Machine Interaction with AI</h1>
           <hr className="bg-gradient-to-tr from-black via-white to-black h-[0.3px] w-3/4 md:w-full border-none shadow shadow-gray-400 mb-4" />
          
           <p className="text-gray-300 text-justify text-lg md:text-xl mt-4 ">
-            Passionate about empowering students to build real-world AI solutions. On a mission to bridge the gap
-            between academic knowledge and industry demands through innovation and mentorship.
+          As the CIO at Team Techies, my primary focus is on bringing innovation to the AI solutions that we develop for our clients. 
+          And also, I am on a mission to empower 1 million students with AI skills over the next 3 years.
           </p>
         </div>
       </div>

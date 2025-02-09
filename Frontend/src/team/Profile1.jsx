@@ -1,6 +1,6 @@
-import profile from "../assets/progile.jpg";
+import profile from "../assets/guru.jpg";
 
-const Profile = () => {
+const Profile1 = () => {
   return (
     <div className="relative max-w-md mx-auto p-2 md:p-4 rounded-xl h-auto md:h-[400px] w-full md:w-[500px]">
       <div
@@ -24,9 +24,9 @@ const Profile = () => {
 
         <div className="text-center mt-4">
           <h2 className="text-white text-2xl font-medium">Guru Darpan</h2>
-          <p className="text-gray-400 mt-1 text-lg">[ Computer Vision | LLM's ]</p>
+          <p className="text-gray-400 mt-1 text-lg">Computer Vision Team Lead</p>
           <p className="text-gray-300 mt-3 font-medium text-lg">
-            Major Focus on Low-Level Coding for Computer Vision Applications and LLM's
+            Major Focus on Low-Level Coding, Computer Vision Applications, GAN's, LLM's and MLOPs.
           </p>
         </div>
       </div>
@@ -34,4 +34,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Profile1;

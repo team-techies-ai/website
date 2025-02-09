@@ -42,8 +42,8 @@ const Features = () => {
   ];
 
   return (
-    <div ref={featuresRef} className="px-6 max-w-7xl mx-auto min-h-screen flex flex-col justify-center ">
-      <h1 className="text-2xl md:text-4xl lg:text-5xl font-medium text-center m-4 mb-5 lg:mb-5">We Believe in</h1>
+    <div ref={featuresRef} className=" max-w-7xl mx-auto min-h-screen flex flex-col justify-center ">
+      <h1 className="text-2xl md:text-4xl lg:text-5xl font-medium text-center m-4 ">We Believe in</h1>
       <div 
         className={`relative w-full p-6 lg:p-10 ${
           isMobile ? 'bg-none' : 'bg-no-repeat bg-cover bg-center'

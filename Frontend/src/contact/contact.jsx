@@ -96,7 +96,7 @@ const Contact = () => {
             Looking for an AI Solution
           </span>
         </h1>
-        <p className="text-lg sm:text-xl font-medium">Empowering the next generation of AI Innovators.</p>
+        {/* <p className="text-lg sm:text-xl font-medium">Empowering the next generation of AI Innovators.</p> */}
       </div>
       <div className="relative p-4 md:p-6 rounded-xl w-full max-w-[1100px] mx-auto mt-28 lg:mt-16">
         <div
@@ -220,7 +220,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="title"
-                placeholder="Title"
+                placeholder="Problem Statement"
                 value={formData.title}
                 onChange={handleChange}
                 required
@@ -237,7 +237,7 @@ const Contact = () => {
               ></div>
               <textarea
                 name="description"
-                placeholder="Description"
+                placeholder="Problem Statement Description"
                 value={formData.description}
                 onChange={handleChange}
                 required
@@ -248,7 +248,7 @@ const Contact = () => {
               type="submit"
               className="bg-[#2D0C57] text-white py-3 px-4 rounded-md transition-colors duration-300 hover:bg-[#3D1C67] focus:outline-none focus:ring-2 focus:ring-[#2D0C57] focus:ring-opacity-50"
             >
-              Submit
+              Schedule a Call
             </button>
           </form>
         </div>

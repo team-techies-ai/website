@@ -1,4 +1,5 @@
-import Profile from "./Profile";
+import Profile1 from "./Profile1";
+import Profile2 from "./Profile2";
 import Mainprofile from "./Mainprofile";
 import Allprofiles from "./Allprofiles";
 
@@ -8,8 +9,8 @@ const Team = () => {
       <h1 className="text-4xl md:text-6xl font-medium text-center m-4">Meet our Team</h1>
       <Mainprofile />
       <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 my-8">
-        <Profile />
-        <Profile />
+        <Profile1 />
+        <Profile2 />
       </div>
       <div className="mt-auto w-full">
         <Allprofiles />

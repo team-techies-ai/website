@@ -18,7 +18,7 @@ const Specialization = () => {
         <div className="p-[2px] rounded-2xl">
           <div className="bg-[#0b0314] rounded-2xl p-7 flex flex-col lg:flex-row items-center">
             <div className="order-2 lg:order-1 lg:w-2/3 lg:pr-4 mt-4 lg:mt-0">
-              <h1 className="text-2xl md:text-3xl mb-4 font-semibold text-justify text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
+              <h1 className="text-2xl md:text-3xl mb-4 font-semibold text-left text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
                 AI Product Development
               </h1>
               <p className="mt-2  text-lg  md:text-lg mb-4 font-small text-justify text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
@@ -46,13 +46,13 @@ const Specialization = () => {
         <div className="p-[2px] rounded-2xl">
           <div className="bg-[#0b0314] rounded-2xl p-7 flex flex-col lg:flex-row items-center">
             <div className="order-2 lg:order-1 lg:w-2/3 lg:pr-4 mt-4 lg:mt-0">
-            <h1 className="text-2xl md:text-3xl mb-4 font-semibold text-justify text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
+            <h1 className="text-2xl md:text-3xl mb-4 font-semibold text-left text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
 
                 Empowering Students
               </h1>
-              <p className="mt-2 text-lg md:text-lg mb-4 font-small text-justify text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
+              <p className="mt-2 text-lg md:text-lg font-small text-left text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
 
-                We’re dedicated to spreading knowledge about AI through webinars and workshops. These sessions are designed to help students understand and dive into the world of AI, empowering them with the skills needed to excel in this fast-growing field.
+                We’re dedicated to spreading knowledge about AI through Free Live webinars and workshops. These sessions are designed to help students understand and dive into the world of AI, empowering them with the skills needed to excel in this fast-growing field.
               </p>
             </div>
             <div className="order-1 lg:order-2 lg:w-1/3">
