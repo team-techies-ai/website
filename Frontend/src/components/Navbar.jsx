@@ -5,8 +5,8 @@ import { useForm } from "react-hook-form";
 import logo from "../assets/Untitled design 1.svg";
 import HamburgerIcon from './HamburgerIcon';
 import { Savesubscribe } from "../utils/api";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react"
-import { Loader2 } from "lucide-react"
+// import { DotLottieReact } from "@lottiefiles/dotlottie-react"
+// import { Loader2 } from "lucide-react"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
