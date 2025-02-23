@@ -16,10 +16,13 @@ import Contact from "./contact/contact.jsx"
 import Register from "./Auth/Register.jsx"
 import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy.jsx"
 import BlogHome from "./Blogs/BlogHome.jsx"
+import { AuthProvider } from './context/AuthContext';
 
 
 const App = () => {
   return (
+          <AuthProvider>
+
     <div className="flex flex-col  bg-[#0b0314] text-white  min-h-screen App">
       <ScrollToTop />
       <Navbar />
@@ -40,6 +43,8 @@ const App = () => {
       </main>
       <Footer />
     </div>
+          </AuthProvider>
+
   );
 };
 function Home() {
