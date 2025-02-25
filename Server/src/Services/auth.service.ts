@@ -1,6 +1,9 @@
+import dotenv from "dotenv";
+dotenv.config();
 import { OAuth2Client } from "google-auth-library"
 import jwt from "jsonwebtoken"
 import User from "../Models/user.model"
+
 
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID)
 
@@ -26,6 +29,9 @@ export const googleAuthService = async (idToken: string) => {
       refreshToken: "",
     })
   }
+  console.log("JWT_SECRET:-------------------", process.env.JWT_SECRET);
+console.log("JWT_REFRESH_SECRET:==============", process.env.JWT_REFRESH_SECRET);
+
 
   const accessToken = jwt.sign({ userId: user._id }, process.env.JWT_SECRET as string, { expiresIn: "1h" })
   const refreshToken = jwt.sign({ userId: user._id }, process.env.JWT_REFRESH_SECRET as string, { expiresIn: "7d" })

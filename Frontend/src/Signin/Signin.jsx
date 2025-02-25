@@ -22,9 +22,6 @@ const Signin = () => {
       <div className="bg-[#0b0314] backdrop-filter backdrop-blur-lg p-8 rounded-lg shadow-lg w-full max-w-md mt-32 border border-white">
         <h2 className="text-3xl font-bold mb-6 text-center">Signup</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-6">
-          
-         
-          
           <div>
             <label htmlFor="email" className="block mb-2 text-sm font-medium">
               Email
@@ -67,8 +64,6 @@ const Signin = () => {
               <span className="text-red-400 text-sm">{errors.password.message}</span>
             )}
           </div>
-
-          
 
           <button
             type="submit"
