@@ -11,6 +11,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',  // Allows access from any device on the same network
     port: 5173,       // Default Vite port (change if needed)
+    allowedHosts: true,
     headers: {
       "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
       "Cross-Origin-Embedder-Policy": "unsafe-none",
