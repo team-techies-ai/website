@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import lines from "../assets/Group12.svg";
-import Glass from "./Glass";
+import Glass from "./glass";
 
 const Features = () => {
   const [isMobile, setIsMobile] = useState(false);
