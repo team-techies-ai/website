@@ -155,8 +155,8 @@ const Hero = () => {
               A Game changing platform for AI Innovators
             </span>
           </h1>
-          <p className="text-base sm:text-lg font-small pl-2 pr-2 mb-6 text-lg md:text-xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
-            Empowering Students and Professionals to Build the Future of AI.
+          <p className="text-base sm:text-lg font-medium pl-2 pr-2 mb-6 text-lg md:text-xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
+            Empowering Businesses and Aspiring innovators to Build the Future of AI.
             Join a community of passionate minds developing Innovative AI
             Solutions that enhance human productivity.
           </p>
@@ -177,16 +177,17 @@ const Hero = () => {
           <div className="flex flex-row justify-center  lg:justify-start gap-4">
         <Link
           to="about"
-          className="bg-white text-black border rounded-xl px-2 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
+          className="bg-white font-medium text-black border rounded-xl px-2 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
         >
           What we do ?
         </Link>
         <Link
           to="register"
-          className="bg-black text-white border rounded-2xl px-2 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
+          className="bg-black text-white font-medium border rounded-2xl px-2 py-3 hover:bg-opacity-90 transition-colors lg:w-auto text-center"
         >
           Join Community
         </Link>
+        
         </div>
         </div>
       </div>

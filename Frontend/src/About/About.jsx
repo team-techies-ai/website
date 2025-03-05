@@ -19,10 +19,11 @@ const About = () => {
 
       {/* Who We Are Section */}
       <div className="mb-12 flex flex-col lg:flex-row items-center justify-start">
-        <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+        <div className="w-full lg:w-3/5 mb-8 lg:mb-0">
           <h2 className="text-2xl sm:text-3xl font-semibold mt-10 mb-4">Who Are We?</h2>
           <p className="text-base sm:text-lg mb-4">
-            Team Techies is a group of passionate students and professionals who come together to explore and innovate in the world of Artificial Intelligence. Our focus is on continuous learning, innovation, and collaboration to develop AI-driven solutions that enhance human productivity. We're here to make a real impact in society with our innovation and help each other succeed in the AI world.
+          Team Techies is a group of innovators passionate about building AI solutions that enhance human productivity. Our primary focus is on researching and developing AI solutions that help businesses overcome challenges and grow. We specialize in studying real-world business problems, identifying the right AI strategies, and creating efficient solutions tailored to our client needs.
+         </p> <p className="text-base sm:text-lg mb-4">But we’re not just an AI solutions company—we’re a team of curious learners, creative builders, and problem-solvers. We believe the best way to learn is through hands-on experience, so we work on real AI challenges that help businesses while also giving students practical knowledge. As we create AI solutions for companies, we also help students gain real-world experience, shaping them into future AI experts.
           </p>
         </div>
         <div className="w-full lg:w-1/3 ">
@@ -35,31 +36,15 @@ const About = () => {
       </div>
 
       {/* Mission Section */}
-      <div className="mb-12">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Mission</h2>
-        <p className="text-base sm:text-lg">
-          To build innovative and efficient AI solutions for our clients that enhances human productivity and to empower 1 million students with AI skills over the next three years.
-        </p>
-      </div>
+<div className="mb-12">
+  <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Mission</h2>
+  <ul className="list-disc pl-5 text-base sm:text-lg">
+    <li><strong>Innovate:</strong> We build smart, efficient AI solutions for our clients that boost human productivity.</li>
+    <li><strong>Empower:</strong> We’re on a mission to equip 1 million students with hands-on AI skills over the next three years, preparing them for the future.</li>
+  </ul>
+</div>
 
-      {/* What We Do Section */}
-      <div className="mb-12">
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-4">What We Do</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <div className="p-6 rounded-2xl border-2 border-[#2D0C57]">
-            <h3 className="text-xl sm:text-2xl font-semibold mb-2">AI Product Development</h3>
-            <p className="mt-2  text-lg  md:text-lg mb-4 font-small text-justify text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
-                We specialize in building AI solutions across Speech AI, Computer Vision, Chatbots, and NLP. Our focus is on developing computationally efficient AI systems that solve real-world challenges effectively.
-            </p>
-          </div>
-          <div className="p-6 rounded-2xl border-2 border-[#2D0C57]">
-            <h3 className="text-xl sm:text-2xl font-semibold mb-2">Student Empowerment</h3>
-            <p className="mt-2 text-lg md:text-lg mb-4 font-small text-justify text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
-              We’re dedicated to spreading knowledge about AI through webinars and workshops. These sessions are designed to help students understand and dive into the world of AI, empowering them with the skills needed to excel in this fast-growing field.
-            </p>
-          </div>
-        </div>
-      </div>
+
     </div>
   );
 };

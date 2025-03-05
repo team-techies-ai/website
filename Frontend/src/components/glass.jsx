@@ -37,11 +37,11 @@ const Glass = ({ head, para, isMobile }) => {
         isMobile ? (isExpanded ? 'h-auto' : 'h-[222px]') : 'h-auto'
       } flex flex-col justify-between`}  // Added flex and justify-between for uniform height
     >
-      <h1 className="text-4xl md:text-5xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">
+      <h1 className="text-4xl md:text-5xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4]">
         {head}
       </h1>
 
-      <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e]">
+      <p className="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4]">
         {isMobile && !isExpanded ? `${para.slice(0, maxLength)}${para.length > maxLength ? '...' : ''}` : para}
       </p>
 
