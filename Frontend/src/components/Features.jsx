@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import lines from "../assets/Group12.svg";
-import Glass from "./glass";
+import Glass from "./Glass";
 
 const Features = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -42,10 +42,10 @@ const Features = () => {
   ];
 
   return (
-    <div ref={featuresRef} className=" max-w-7xl mx-auto min-h-screen flex flex-col justify-center ">
-      <h1 className="text-2xl md:text-4xl lg:text-5xl font-medium text-center m-4 ">We Believe in</h1>
+    <div ref={featuresRef} className=" max-w-6xl mx-auto mt-2 flex flex-col justify-center mt-0 ">
+      <h3 className="text-2xl md:text-3xl lg:text-3xl font-medium text-center  ">We Believe in</h3>
       <div 
-        className={`relative w-full p-6 lg:p-10 ${
+        className={`relative w-auto p-7 lg:p-7 ${
           isMobile ? 'bg-none' : 'bg-no-repeat bg-cover bg-center'
         }`}
         // style={isMobile ? {} : { backgroundImage: url(${lines}) }}
