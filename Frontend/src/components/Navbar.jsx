@@ -73,7 +73,7 @@ const Navbar = () => {
                   onClick={toggleProfileMenu}
                   className="flex items-center space-x-2 text-white px-4 py-1 rounded-2xl hover:bg-white/10"
                 >
-                  <User className="h-5 w-5" /> {/* Added User icon */}
+                  <User className="h-5 w-5" />
                   <span>{user.name}</span>
                 </button>
                 {isProfileMenuOpen && (
@@ -96,9 +96,16 @@ const Navbar = () => {
                 )}
               </div>
             ) : (
-              <Link to="/register">
-                <button className="bg-red-500 text-white border-2 px-4 py-1 rounded-2xl">Join Team</button>
-              </Link>
+              <div className="flex justify-center">
+                <Link
+                  to="/register"
+                  className="relative px-6 py-3 text-lg font-semibold text-white transition-all duration-300 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full shadow-lg hover:from-indigo-600 hover:to-purple-600 hover:shadow-indigo-500/50"
+                >
+                  <span className="relative inset-0 flex items-center justify-center">
+                    Join Community
+                  </span>
+                </Link>
+              </div>
             )}
           </div>
 
@@ -150,7 +157,7 @@ const Navbar = () => {
             {user ? (
               <>
                 <Link to="/profile" onClick={toggleMenu} className="flex items-center gap-2 mb-4">
-                  <User className="h-5 w-5" /> {/* Added User icon */}
+                  <User className="h-5 w-5" />
                   <button className="bg-red-500 text-white border-2 px-4 py-1 rounded-2xl">Profile</button>
                 </Link>
                 <button
@@ -165,9 +172,17 @@ const Navbar = () => {
                 </button>
               </>
             ) : (
-              <Link to="/register" onClick={toggleMenu}>
-                <button className="bg-red-500 text-white border-2 px-4 py-1 rounded-2xl">Join Team</button>
-              </Link>
+              <div className="flex justify-center">
+                <Link
+                  to="/register"
+                  className="relative px-6 py-3 text-lg font-semibold text-white transition-all duration-300 ease-in-out bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full shadow-lg hover:from-indigo-600 hover:to-purple-600 hover:shadow-indigo-500/50"
+                  onClick={toggleMenu}
+                >
+                  <span className="relative inset-0 flex items-center justify-center">
+                    Join Community
+                  </span>
+                </Link>
+              </div>
             )}
           </div>
         </div>

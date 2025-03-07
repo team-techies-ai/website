@@ -7,13 +7,16 @@ const StudentCollaboration = () => {
     <div className="px-6 md:px-12 lg:px-24 py-12 bg-[#0b0314] text-white flex flex-col lg:flex-row items-center gap-10">
       {/* Left Side - Content */}
       <motion.div
-        className="lg:w-2/3 text-center lg:text-left"
+        className="lg:w-9/12 text-center lg:text-left"
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
         <h1 className="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4] bg-clip-text text-transparent">
-          Student Collaboration & Mentorship
+        Turning AI Enthusiasts into
+        </h1>
+        <h1 className="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4] bg-clip-text text-transparent">
+    Industry Leaders
         </h1>
         <p className="mt-6 text-lg md:text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4] leading-relaxed">
           At <span className="font-bold text-indigo-400">Team Techies</span>, we believe in the power of <b>Teamwork</b>. 
@@ -23,7 +26,7 @@ const StudentCollaboration = () => {
 
         <p className="mt-4 text-lg md:text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4]">
           Join hands with AI enthusiasts, researchers, and tech leaders to innovate 
-          and grow together!
+          and grow together
         </p>
 
         {/* Creative Button */}

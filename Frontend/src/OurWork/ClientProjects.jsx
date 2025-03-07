@@ -11,7 +11,7 @@ const ClientProjects = () => {
           </span>
         </h1>
         <p className="text-lg sm:text-xl font-medium">
-          Innovative AI solutions crafted for real-world challenges
+          Innovative AI solutions for real world challenges
         </p>
       </div>
 

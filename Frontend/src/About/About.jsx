@@ -12,9 +12,9 @@ const About = () => {
 
           
         </h1>
-        <p className="text-lg sm:text-xl font-medium">
+        {/* <p className="text-lg sm:text-xl font-medium">
           Empowering the next generation of AI Innovators.
-        </p>
+        </p> */}
       </div>
 
       {/* Who We Are Section */}
@@ -22,10 +22,9 @@ const About = () => {
         <div className="w-full lg:w-3/5 mb-8 lg:mb-0">
           <h2 className="text-2xl sm:text-3xl font-semibold mt-10 mb-4">Who Are We?</h2>
           <p className="text-base sm:text-lg mb-4">
-          Team Techies is a group of innovators passionate about building AI solutions that enhance human productivity. Our primary focus is on researching and developing AI solutions that help businesses overcome challenges and grow. We specialize in studying real-world business problems, identifying the right AI strategies, and creating efficient solutions tailored to our client needs.
-         </p> <p className="text-base sm:text-lg mb-4">But we’re not just an AI solutions company—we’re a team of curious learners, creative builders, and problem-solvers. We believe the best way to learn is through hands-on experience, so we work on real AI challenges that help businesses while also giving students practical knowledge. As we create AI solutions for companies, we also help students gain real-world experience, shaping them into future AI experts.
-          </p>
-        </div>
+          Team Techies is a group of AI innovators dedicated to building solutions that enhance human productivity. We focus on researching, developing, and implementing AI strategies to help businesses overcome challenges and grow.
+          </p> <p className="text-base sm:text-lg mb-4">By solving real-world problems, we build smart AI solutions while involving students in the process. They work with our team, gain practical skills, and get real industry experience, helping them become future AI experts.</p>
+          </div>
         <div className="w-full lg:w-1/3 ">
           <img
             src={img || "/placeholder.svg"}
@@ -39,8 +38,8 @@ const About = () => {
 <div className="mb-12">
   <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Mission</h2>
   <ul className="list-disc pl-5 text-base sm:text-lg">
-    <li><strong>Innovate:</strong> We build smart, efficient AI solutions for our clients that boost human productivity.</li>
-    <li><strong>Empower:</strong> We’re on a mission to equip 1 million students with hands-on AI skills over the next three years, preparing them for the future.</li>
+    <li><strong>Innovate: </strong>We develop cutting-edge AI solutions that transform businesses, making work smarter and more efficient.</li>
+    <li><strong>Empower: </strong>Our goal is to train 1 million students in AI skills over the next three years, giving them real experience to prepare for the future.</li>
   </ul>
 </div>
 

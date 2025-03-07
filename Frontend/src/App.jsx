@@ -54,11 +54,11 @@ function Home() {
   return (
     <div className=" text-white  min-h-screen ">
       <Hero />
-      <Specialization />
       <StudentCollaboration />
       <Features />
+      <Specialization />
 
-      <Sunil/>
+      {/* <Sunil/> */}
 
       
     </div>
