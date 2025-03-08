@@ -1,5 +1,6 @@
 import React from "react";
-
+import pic1 from "../assets/benfranklin.png" ;
+import pic2 from "../assets/bharathNyayMithra.png";
 const ClientProjects = () => {
   return (
     <div className="container mx-auto px-4 pt-[120px] lg:pt-[150px]">
@@ -22,15 +23,15 @@ const ClientProjects = () => {
           <p className="text-lg mb-4 text-justify">
           Ben Franklin is India’s No.1 hospital-based optical chain, offering international-standard optical dispensing across the country.
           </p>
-          <p className="text-lg mb-4 text-justify">In collaboration with Ben Franklin Company, Team Techies has developed an AI-powered solution for detecting and classifying defects in spectacle lenses. This advanced system automates quality inspection, ensuring precision in identifying imperfections. Using image processing techniques, our AI model not only detects and classifies defects but also measures their length, providing detailed insights for better quality control.
+          <p className="text-lg mb-4 text-justify">In collaboration with Ben Franklin Company, Team Techies has developed an AI-powered solution for detecting and classifying defects in spectacle lenses. This advanced system automates quality inspection, ensuring precision in identifying imperfections. Our AI model not only detects and classifies defects but also measures their length, providing detailed insights for better quality control.
 This innovative technology is set to transform quality assurance in the eyewear industry, making inspections faster, more accurate, and highly efficient.</p>
              
         </div>
         <div className="w-full lg:w-1/2 p-4">
-          <img
-            src="https://via.placeholder.com/500x300"
-            alt="Ben Franklin Client Project"
-            className="w-full h-auto rounded-lg shadow-lg"
+        <img
+            src={pic1 || "/placeholder.svg"}
+            alt="Ben Franklin"
+            className="rounded-lg w-100 h-80 mx-auto border-4 border-[#eeebf1]"
           />
         </div>
       </div>
@@ -48,9 +49,9 @@ Our system ensures accurate case filing by engaging users in a conversational AI
         </div>
         <div className="w-full lg:w-1/2 p-4">
           <img
-            src="https://via.placeholder.com/500x300"
-            alt="AI Lawyer Project"
-            className="w-full h-auto rounded-lg shadow-lg"
+            src={pic2 || "/placeholder.svg"}
+            alt="Bharath Nyay Mithra"
+            className="rounded-lg w-100 h-80 mx-auto border-4 border-[#eeebf1]"
           />
         </div>
       </div>
