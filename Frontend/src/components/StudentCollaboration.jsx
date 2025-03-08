@@ -16,7 +16,7 @@ const StudentCollaboration = () => {
         Turning AI Enthusiasts into
         </h1>
         <h1 className="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4] bg-clip-text text-transparent">
-    Industry Leaders
+    AI Innovators
         </h1>
         <p className="mt-6 text-lg md:text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4] leading-relaxed">
           At <span className="font-bold text-indigo-400">Team Techies</span>, we believe in the power of <b>Teamwork</b>. 
