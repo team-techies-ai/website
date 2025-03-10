@@ -21,7 +21,7 @@ const About = () => {
       <div className="mb-12 flex flex-col lg:flex-row items-center justify-start">
         <div className="w-full lg:w-3/5 mb-8 lg:mb-0">
           <h2 className="text-2xl sm:text-3xl font-semibold mt-10 mb-4">Who Are We?</h2>
-          <p className="text-base sm:text-lg mb-4">
+          <p className="text-base text-justify sm:text-lg mb-4">
           Team Techies is a group of AI innovators dedicated to building solutions that enhance human productivity. We focus on researching, developing, and implementing AI strategies to help businesses overcome challenges and grow.
           </p> <p className="text-base sm:text-lg mb-4">By solving real-world problems, we build smart AI solutions while involving students in the process. They work with our team, gain practical skills, and get real industry experience, helping them become future AI experts.</p>
           </div>
