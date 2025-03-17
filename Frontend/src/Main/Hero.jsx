@@ -36,7 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-base sm:text-lg font-medium pl-2 pr-2 mb-6 text-lg md:text-xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
-          We develop AI solutions that solve real business problems, making your work easier and more productive.
+          We develop AI solutions that solve real world business problems, making your work simpler and more productive.
           </p>
           {/* <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
             <Link
