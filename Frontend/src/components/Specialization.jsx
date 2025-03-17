@@ -53,7 +53,7 @@ const Specialization = () => {
                 Empowering Businesses & Innovators
               </h1>
               <p className="mt-2 text-lg md:text-lg font-medium text-justify text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4]">
-                We work closely with clients to deliver custom AI solutions that drive their success. At the same time, we empower the next generation of AI innovators through free live webinars and workshops—giving students hands-on experience and the skills they need to excel in AI.
+                We work closely with our clients to deliver customized AI solutions that drive their success. At the same time, we empower the next generation AI Innovators through free live webinars and workshops providing students hands-on experience and the skills they need to excel in AI.
               </p>
             </div>
             <div className="order-1 lg:order-2 lg:w-1/3">
