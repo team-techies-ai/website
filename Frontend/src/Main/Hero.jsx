@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 order-2 lg:order-1 text-center lg:text-left lg:pr-8 lg:ml-12">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-medium mb-4 tracking-wide">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#89a3d3] via-white to-[#035bff] leading-tight">
-              Helping Businesses Grow with Custom AI Solutions
+              Helping Businesses Grow with Customized AI Solutions
             </span>
           </h1>
           <p className="text-base sm:text-lg font-medium pl-2 pr-2 mb-6 text-lg md:text-xl mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#817e7e]">
