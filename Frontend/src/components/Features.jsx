@@ -36,9 +36,9 @@ const Features = () => {
   }, []);
 
   const features = [
-    { head: "Learn", para: "Master the foundation of AI by working on projects that are in demand in the industry. Gain practical skills that will help you stand out in your career." },
-    { head: "Innovate", para: "Be a part of bringing innovations in AI, Contribute to research of Team Techies that enhances the human life easier and boost productivity.." },
-    { head: "Collaborate", para: "Team up with a passionate community of AI and ML enthusiasts to build our client projects. And grow your Network by connecting with liked mindsets" }
+    { head: "Learn", para: "Master the foundation of AI by working on projects that are on demand in the industry. Gain practical skills that will help you stand out in your career." },
+    { head: "Innovate", para: "Be a part of bringing innovations in AI Era, Contribute to research of Team Techies that enhances the human life simpler and boost productivity." },
+    { head: "Collaborate", para: "Team up with a passionate community of AI and ML Innovators to build our client projects. And grow your Network by connecting with like minded Individuals." }
   ];
 
   return (
