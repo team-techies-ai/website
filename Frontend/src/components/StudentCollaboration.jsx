@@ -20,7 +20,7 @@ const StudentCollaboration = () => {
         </h1>
         <p className="mt-6 text-lg md:text-xl text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4] leading-relaxed">
           At <span className="font-bold text-indigo-400">Team Techies</span>, we believe in the power of <b>Teamwork</b>. 
-          Our platform enables students and professionals to <b>collaborate, share ideas, and learn</b> 
+          Our platform enables students and professionals to <b>collaborate, share ideas, and learn </b> 
           from each other in Research & Development of <b>Innovative AI Solutions</b>.  
         </p>
 
