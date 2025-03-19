@@ -2,6 +2,7 @@ import Features from "./components/Features"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Specialization from "./components/Specialization"
+import StudentCollaboration from "./components/StudentCollaboration"
 import Sunil from "./components/Sunil"
 import Hero from "./Main/Hero"
 import { Routes, Route } from "react-router-dom";
@@ -17,6 +18,7 @@ import Register from "./Auth/Register.jsx"
 import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy.jsx"
 import BlogHome from "./Blogs/BlogHome.jsx"
 import { AuthProvider } from './context/AuthContext';
+import OurWork from "./OurWork/ClientProjects.jsx";
 
 
 const App = () => {
@@ -38,6 +40,7 @@ const App = () => {
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/register" element={<Register/>} />
+          <Route path="/our-work" element={<OurWork/>} />
           <Route path="/privacy-policy" element={<PrivacyPolicy/>}></Route>
         </Routes>
       </main>
@@ -52,8 +55,10 @@ function Home() {
     <div className=" text-white  min-h-screen ">
       <Hero />
       <Specialization />
-      <Sunil/>
+      <StudentCollaboration />
       <Features />
+
+      {/* <Sunil/> */}
 
       
     </div>

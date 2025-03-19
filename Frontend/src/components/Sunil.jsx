@@ -20,7 +20,7 @@ const Sunil = () => {
           <p className="text-lg text-gray-300 mb-4">Founder, Team Techies</p>
         </div>
 
-        <div className="md:order-1 md:flex-2 text-lg font-medium text-transparent text-justify bg-clip-text bg-gradient-to-r from-[#817e7e] via-white to-[#817e7e] pt-4">
+        <div className="md:order-1 md:flex-2 text-lg font-medium text-transparent text-justify bg-clip-text bg-gradient-to-r from-[#ffffff] via-white to-[#d7d4d4] pt-4">
           <p className="mb-4">
             Heyy there Techy Boy Here, My Name is <span className="font-bold">Sunil</span>, but you can also call me <span className="font-bold">Techy</span>
           </p>
