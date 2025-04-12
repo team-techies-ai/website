@@ -19,6 +19,9 @@ import PrivacyPolicy from "./PrivacyPolicy/PrivacyPolicy.jsx"
 import BlogHome from "./Blogs/BlogHome.jsx"
 import { AuthProvider } from './context/AuthContext';
 import OurWork from "./OurWork/ClientProjects.jsx";
+import Profile from "./components/Profile.jsx"
+
+
 
 
 const App = () => {
@@ -42,6 +45,7 @@ const App = () => {
           <Route path="/register" element={<Register/>} />
           <Route path="/our-work" element={<OurWork/>} />
           <Route path="/privacy-policy" element={<PrivacyPolicy/>}></Route>
+          <Route path="/profile" element={<Profile/>}></Route>
         </Routes>
       </main>
       <Footer />

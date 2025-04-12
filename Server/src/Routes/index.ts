@@ -6,9 +6,9 @@ import auth from "./auth.routes"
 
 const router = Router();
 
-router.use(clientRoutes);
-router.use(team);
-router.use(subscribe);
-router.use(auth);
+router.use("/clients", clientRoutes);
+router.use("/team", team);
+router.use("/subscribe", subscribe);
+router.use("/auth", auth);
 
 export default router;

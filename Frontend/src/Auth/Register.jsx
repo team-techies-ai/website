@@ -10,7 +10,7 @@ const Register = () => {
 
   const handleGoogleAuth = async (credentialResponse) => {
     try {
-      const res = await fetch("http://localhost:9001/api/google", {
+      const res = await fetch("http://localhost:9001/api/auth/google", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

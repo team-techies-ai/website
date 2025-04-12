@@ -5,7 +5,7 @@ dotenv.config();
 
 const connectDB = async () => {
     try {
-        const uri ="mongodb+srv://team-techies:9iXs8iKKpFry5X12@cluster0.ws77r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        const uri =process.env.MONGO_URI
         if (!uri) {
             throw new Error("MongoDB URI is not defined in the environment variables.");
         }

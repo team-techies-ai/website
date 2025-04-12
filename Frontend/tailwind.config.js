@@ -27,6 +27,11 @@ export default {
       animation: {
         shine: "shine 2s infinite",
       },
+            backdropBlur: {
+              sm: '4px',
+              DEFAULT: '8px',
+              md: '12px',
+            },
       keyframes: {
         shine: {
           "0%": { left: "-100%" },
